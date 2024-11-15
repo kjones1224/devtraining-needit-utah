@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-11-13 12:45:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>87cb2e5e873dd2502a9742ad0ebb3597</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>now.needit-experience.*.snc_internal</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_security_acl display_value="now.needit-experience.*">c7cb2e5e873dd2502a9742ad0ebb3595</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_87cb2e5e873dd2502a9742ad0ebb3597</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-11-13 12:45:38</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>d395fc9ddb8762401ddcf22ebf961933</instance_id>
+        <instance_name>aashwsc7</instance_name>
+        <name>sys_security_acl_role_87cb2e5e873dd2502a9742ad0ebb3597</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-11-13 12:45:38</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>87cb2e5e873dd2502a9742ad0ebb3597</sys_id><sys_mod_count>0</sys_mod_count><sys_name>now.needit-experience.*.snc_internal</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_security_acl display_value="now.needit-experience.*">c7cb2e5e873dd2502a9742ad0ebb3595</sys_security_acl><sys_update_name>sys_security_acl_role_87cb2e5e873dd2502a9742ad0ebb3597</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-11-13 12:45:38</sys_updated_on><sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>468052614</payload_hash>
+        <record_name>now.needit-experience.*.snc_internal</record_name>
+        <reverted_from/>
+        <source>16ae6b121b0112109cb14156bc4bcb72</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-10-07 10:50:41</sys_created_on>
+        <sys_id>dfcb2e5e873dd2502a9742ad0ebb35eb</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>192669a4be80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Access Roles</type>
+        <update_guid>9fcb2e5e3f3dd25023c2096054caf4eb</update_guid>
+        <update_guid_history>9fcb2e5e3f3dd25023c2096054caf4eb:468052614</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 11/13/2024 07:45:39">d7cb2e5e873dd2502a9742ad0ebb35ec</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-11-13 12:45:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>7545e1593d35424684f8ebc8147adde9</sys_id>
+        <sys_metadata>87cb2e5e873dd2502a9742ad0ebb3597</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>now.needit-experience.*.snc_internal</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="now.needit-experience.*">c7cb2e5e873dd2502a9742ad0ebb3595</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_87cb2e5e873dd2502a9742ad0ebb3597</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_87cb2e5e873dd2502a9742ad0ebb3597">dfcb2e5e873dd2502a9742ad0ebb35eb</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-11-13 12:45:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
