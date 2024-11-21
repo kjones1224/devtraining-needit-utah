@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "inputTable": "x_58872_needit_needit",
+        "inputSysId": "a3d29ae1db019510838c8d181396196c",
+        "inputQuery": null,
+        "forcedViewName": null,
+        "detailsContext": null,
+        "activityLogs": null,
+        "inputExtraParams": null,
+        "fields": null,
+        "screen": null,
+        "selectedTabIndex": null,
+        "userPrefs": null
+    }
+}</macroponent_config>
+        <screen display_value="NeedIt User Home">2068d449870a96102a9742ad0ebb35f6</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>kjones</sys_created_by>
+        <sys_created_on>2024-11-21 15:04:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fc68d449870a96102a9742ad0ebb35f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_fc68d449870a96102a9742ad0ebb35f9</sys_update_name>
+        <sys_updated_by>kjones</sys_updated_by>
+        <sys_updated_on>2024-11-21 15:04:53</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>
