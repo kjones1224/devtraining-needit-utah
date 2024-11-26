@@ -374,7 +374,195 @@
                                 "elementLabel": "List - Simple 1",
                                 "elementId": "list___simple_1",
                                 "eventMappings": [
-                                    
+                                    {
+                                        "eventMappingId": "cmddyxbebbgaahhwjjddjhhuggsfjjrkffa",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "targetId": "cmddyxbebbgaahhwaddjhhuupzsaaliihh",
+                                                "type": "EVENT",
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "sysId": "527ac7ae1b8e125007d5eb13604bcbbb",
+                                                    "payload": {
+                                                        "type": "MAP_CONTAINER",
+                                                        "container": {
+                                                            "route": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "record"
+                                                            },
+                                                            "fields": {
+                                                                "type": "MAP_CONTAINER",
+                                                                "container": {
+                                                                    "table": {
+                                                                        "type": "EVENT_PAYLOAD_BINDING",
+                                                                        "binding": {
+                                                                            "address": [
+                                                                                "table"
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    "sysId": {
+                                                                        "type": "EVENT_PAYLOAD_BINDING",
+                                                                        "binding": {
+                                                                            "address": [
+                                                                                "sys_id"
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "params": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "redirect": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "passiveNavigation": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "title": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "multiInstField": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "targetRoute": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "external": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "navigationOptions": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            }
+                                                        }
+                                                    },
+                                                    "apiName": "x_58872_needit.NAV_ITEM_SELECTED_RELAY_6468d449870a96102a9742ad0ebb35f2"
+                                                },
+                                                "operation": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "broker": null
+                                            }
+                                        ],
+                                        "sourceEventDefinition": {
+                                            "id": null,
+                                            "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+                                            "type": "UXEVENT"
+                                        }
+                                    },
+                                    {
+                                        "eventMappingId": "cmddyxdnjoaahhxyddjhhuddimqxypz",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#VIEW_ALL_CLICKED",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "targetId": "cmddyxdnjpaahhxzddjhhuvbbojeebuff",
+                                                "type": "EVENT",
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "sysId": "527ac7ae1b8e125007d5eb13604bcbbb",
+                                                    "payload": {
+                                                        "type": "MAP_CONTAINER",
+                                                        "container": {
+                                                            "route": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "simple-list"
+                                                            },
+                                                            "fields": {
+                                                                "type": "MAP_CONTAINER",
+                                                                "container": {
+                                                                    "table": {
+                                                                        "type": "EVENT_PAYLOAD_BINDING",
+                                                                        "binding": {
+                                                                            "address": [
+                                                                                "table"
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "params": {
+                                                                "type": "MAP_CONTAINER",
+                                                                "container": {
+                                                                    "listTitle": {
+                                                                        "type": "EVENT_PAYLOAD_BINDING",
+                                                                        "binding": {
+                                                                            "address": [
+                                                                                "listTitle"
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    "query": {
+                                                                        "type": "EVENT_PAYLOAD_BINDING",
+                                                                        "binding": {
+                                                                            "address": [
+                                                                                "query"
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "redirect": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "passiveNavigation": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "title": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "multiInstField": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "targetRoute": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "external": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "navigationOptions": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            }
+                                                        }
+                                                    },
+                                                    "apiName": "x_58872_needit.NAV_ITEM_SELECTED_RELAY_6468d449870a96102a9742ad0ebb35f2"
+                                                },
+                                                "operation": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "broker": null
+                                            }
+                                        ],
+                                        "sourceEventDefinition": {
+                                            "id": null,
+                                            "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#VIEW_ALL_CLICKED",
+                                            "type": "UXEVENT"
+                                        }
+                                    }
                                 ],
                                 "propertyValues": {
                                     "table": {
@@ -586,7 +774,7 @@
         <da_relay_models/>
         <data/>
         <description/>
-        <dispatched_events/>
+        <dispatched_events>527ac7ae1b8e125007d5eb13604bcbbb</dispatched_events>
         <events/>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
@@ -646,7 +834,7 @@
         <sys_created_on>2024-11-21 15:04:52</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>6468d449870a96102a9742ad0ebb35f2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>NeedIt User Home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
@@ -654,6 +842,6 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_6468d449870a96102a9742ad0ebb35f2</sys_update_name>
         <sys_updated_by>kjones</sys_updated_by>
-        <sys_updated_on>2024-11-21 15:14:20</sys_updated_on>
+        <sys_updated_on>2024-11-26 20:45:51</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
