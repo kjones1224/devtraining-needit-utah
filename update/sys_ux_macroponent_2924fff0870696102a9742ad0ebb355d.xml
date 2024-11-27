@@ -265,6 +265,244 @@
             "id": "d356d14b6e293a3020a244b63d278d8f",
             "type": "MACROPONENT"
         },
+        "elementLabel": "Next NeedIt row",
+        "elementId": "next_needit_row",
+        "eventMappings": [
+            
+        ],
+        "propertyValues": {
+            "ariaRegionName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "message": "",
+                    "comment": ""
+                }
+            },
+            "includeAriaHeading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "ariaRegionHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "section"
+            },
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "fullheight"
+            }
+        },
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "slot": null,
+        "styles": null,
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementLabel": "Next NeedIt",
+                    "elementId": "next_needit",
+                    "eventMappings": [
+                        
+                    ],
+                    "propertyValues": {
+                        "ariaRegionName": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "message": "",
+                                "comment": ""
+                            }
+                        },
+                        "includeAriaHeading": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "ariaRegionHeadingLevel": {
+                            "type": "JSON_LITERAL",
+                            "value": "1"
+                        },
+                        "type": {
+                            "type": "JSON_LITERAL",
+                            "value": "section"
+                        },
+                        "ariaRole": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "hideEmptyStateUi": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "slotWrapperBehavior": {
+                            "type": "JSON_LITERAL",
+                            "value": "fullheight"
+                        }
+                    },
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "slot": null,
+                    "styles": null,
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "4d537db98a05adaf55f9e219c50d1358",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementLabel": "My Next NeedIt record",
+                                "elementId": "my_next_needit_record",
+                                "eventMappings": [
+                                    
+                                ],
+                                "propertyValues": {
+                                    "table": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "x_58872_needit_needit"
+                                    },
+                                    "sysId": {
+                                        "type": "DATA_OUTPUT_BINDING",
+                                        "binding": {
+                                            "address": [
+                                                "my_next_needit",
+                                                "results",
+                                                "0",
+                                                "sys_id",
+                                                "value"
+                                            ]
+                                        }
+                                    },
+                                    "workspaceConfigId": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "primaryValue": {
+                                        "type": "DATA_OUTPUT_BINDING",
+                                        "binding": {
+                                            "address": [
+                                                "add_user_to_text_string_1",
+                                                "output"
+                                            ]
+                                        }
+                                    },
+                                    "subHeadingValue": {
+                                        "type": "DATA_OUTPUT_BINDING",
+                                        "binding": {
+                                            "address": [
+                                                "next_needit_form",
+                                                "nowRecordCommonHeader",
+                                                "primaryValue"
+                                            ]
+                                        }
+                                    },
+                                    "secondaryItems": {
+                                        "type": "DATA_OUTPUT_BINDING",
+                                        "binding": {
+                                            "address": [
+                                                "next_needit_form",
+                                                "nowRecordCommonHeader",
+                                                "secondaryItems"
+                                            ]
+                                        }
+                                    },
+                                    "headerImageItem": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "hideTagsValue": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "recordTags": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "headingLevel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "1"
+                                    }
+                                },
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "type": "flex",
+                                "root": null,
+                                "children": null,
+                                "rules": null,
+                                "styles": {
+                                    "flex-direction": "column"
+                                },
+                                "items": [
+                                    {
+                                        "element_id": "my_next_needit_record",
+                                        "styles": {}
+                                    }
+                                ],
+                                "templateId": "5832fd4d53c31010e6bcddeeff7b12db"
+                            },
+                            "version": "3.0.0"
+                        }
+                    }
+                }
+            ],
+            "layout": {
+                "default": {
+                    "type": "flex",
+                    "root": null,
+                    "children": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "column",
+                        "align-items": "center"
+                    },
+                    "items": [
+                        {
+                            "element_id": "next_needit",
+                            "styles": {
+                                "width": "90%"
+                            }
+                        }
+                    ],
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db"
+                },
+                "version": "3.0.0"
+            }
+        }
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
         "elementLabel": "Reports row",
         "elementId": "reports_row",
         "eventMappings": [
@@ -3499,7 +3737,179 @@
     }
 ]</composition>
         <da_relay_models/>
-        <data/>
+        <data>[
+    {
+        "elementId": "my_next_needit",
+        "elementLabel": "My Next NeedIt",
+        "definition": {
+            "id": "b997a84053021010cbc2ddeeff7b1228",
+            "type": "COMPOSITE"
+        },
+        "dependencies": {},
+        "inputValues": {
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_58872_needit_needit"
+            },
+            "encodedQuery": {
+                "type": "JSON_LITERAL",
+                "value": "active=true^u_requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^u_when_needed&gt;javascript:gs.endOfToday()"
+            },
+            "returnFields": {
+                "type": "JSON_LITERAL",
+                "value": "u_when_needed,sys_id,description,number"
+            },
+            "orderBy": {
+                "type": "JSON_LITERAL"
+            },
+            "sortType": {
+                "type": "JSON_LITERAL",
+                "value": "asc"
+            },
+            "limit": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "offset": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "queryCategory": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "returnFieldMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            }
+        },
+        "eventMappings": [
+            
+        ],
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "elementId": "next_needit_form",
+        "elementLabel": "Next NeedIt Form",
+        "definition": {
+            "id": "dc6e87a5232200100e4bc50947bf654b",
+            "type": "CLIENT_STATE"
+        },
+        "dependencies": {},
+        "inputValues": {
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_58872_needit_needit"
+            },
+            "sysId": {
+                "type": "DATA_OUTPUT_BINDING",
+                "binding": {
+                    "address": [
+                        "my_next_needit",
+                        "results",
+                        "0",
+                        "sys_id",
+                        "value"
+                    ]
+                }
+            },
+            "formParams": {
+                "type": "JSON_LITERAL",
+                "value": "{}"
+            },
+            "actionConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "actionLayoutId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "headerConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "ribbonConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "viewRuleConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "oneExtendConfig": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "highlightedValueConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "view": {
+                "type": "JSON_LITERAL",
+                "value": "Default view"
+            },
+            "forcedViewName": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "query": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "showActivityStreamInDetails": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "detailsContext": {
+                "type": "CONTEXT_BINDING",
+                "binding": {
+                    "category": "props",
+                    "address": [
+                        "activityLogs"
+                    ]
+                }
+            },
+            "shouldDisplayFormErrorsAsPageAlerts": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "shouldSuppressGlobalEvents": {
+                "type": "JSON_LITERAL",
+                "value": false
+            }
+        },
+        "eventMappings": [
+            
+        ],
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "elementId": "add_user_to_text_string_1",
+        "elementLabel": "Add User to Text String 1",
+        "definition": {
+            "id": "cac364471b82d25007d5eb13604bcb48",
+            "type": "TRANSFORM"
+        },
+        "dependencies": {},
+        "inputValues": {
+            "userFullName": {
+                "type": "CONTEXT_BINDING",
+                "binding": {
+                    "address": [
+                        "user",
+                        "fullName"
+                    ],
+                    "category": "session"
+                }
+            }
+        },
+        "eventMappings": [
+            
+        ],
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
         <description/>
         <dispatched_events>7b2e66e21b0e125007d5eb13604bcbdf</dispatched_events>
         <events/>
@@ -3543,6 +3953,14 @@
                 "element_id": "header_row",
                 "styles": {
                     "background": "#81B5A1"
+                }
+            },
+            {
+                "element_id": "next_needit_row",
+                "styles": {
+                    "width": "100%",
+                    "align-self": "center",
+                    "background": "#B3D4C7"
                 }
             },
             {
@@ -3660,7 +4078,7 @@
         <sys_created_on>2024-11-21 12:26:33</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>2924fff0870696102a9742ad0ebb355d</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name>NeedIt Admin Home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
@@ -3668,6 +4086,6 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_2924fff0870696102a9742ad0ebb355d</sys_update_name>
         <sys_updated_by>kjones</sys_updated_by>
-        <sys_updated_on>2024-11-27 19:35:35</sys_updated_on>
+        <sys_updated_on>2024-11-27 21:15:41</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
